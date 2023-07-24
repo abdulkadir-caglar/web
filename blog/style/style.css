@@ -1,0 +1,105 @@
+body{
+    background-color: #f7ce68;
+    background-image: url("https://www.transparenttextures.com/patterns/absurdity.png");
+}
+
+nav{
+    background-color: #fffad9;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
+.container{
+    margin-top: 2%;
+    border-radius: 15px;
+    background-color: #fffad9;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+.olustur{
+    width:35%;
+}
+
+form{
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.textarea{
+    width: 100%;
+    height: 250px;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+
+.heading{
+    width: 60%;
+    margin-top: 10px;
+}
+
+.submitButton{
+    margin-top: 15px;
+    width: 50%;
+    height:50px;
+    border-radius: 6px;
+    border: none;
+    background-color: #f7ce68;
+    transition-property: letter-spacing, background-color, border-radius;
+    transition-duration: 0.5s;
+}
+
+.submitButton:hover{
+    letter-spacing: 2px;
+    border-radius: 10px;
+    background-color: #f5c242;
+}
+
+.logo{
+    transition-property: letter-spacing, font-size;
+    transition-duration: 0.7s;
+}
+
+.logo:hover{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+h3{
+    margin-top:20px;
+    line-height: 100px;
+}
+
+.loginText {
+    width: 180px;
+    margin-left: 20px;
+    border: 2px solid grey;
+    transition-property: width;
+    transition-duration: 0.5s;
+  }
+  
+  .loginText:hover {
+    width: 210px;
+  }
+
+.loginButton{
+    margin-top: 15px;
+    margin-left:20px;
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: #f7ce68;
+    transition: background-color 0.5s, letter-spacing 0.5s, width 0.5s;
+}
+
+.loginButton:hover{
+    letter-spacing: 1px;
+    background-color: #f5c242;
+    width: 120px;
+}
+
+.cont{
+    width: 100px;
+}
+
+.login{
+    text-align: left;
+}
